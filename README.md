@@ -41,13 +41,4 @@ Source code will be released soon.
 ## Framework
 ![Overall](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/overall.png)
 
-### Domaint Color Extracting
-![Extracting](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/extracting.png)
-
-### Semantic-Driven Generator
-![SDG](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/SDG.png)
-
-### Differentiable Scene Rendering
-![Rendering](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/rendering.png)
-
 ## Attack performance
