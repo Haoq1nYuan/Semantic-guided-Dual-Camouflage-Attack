@@ -39,6 +39,6 @@ Source code will be released soon.
 - Download link: [[Google Drive]()]
 
 ## Framework
-![Overall](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/overall.png)
+![Overall](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/framework.png)
 
 ## Attack performance
