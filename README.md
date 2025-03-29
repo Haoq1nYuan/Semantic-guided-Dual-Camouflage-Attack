@@ -42,16 +42,16 @@ Source code will be released soon.
 
 ## Attack performance
 
-### Digital evaluation
+### Digital evaluation (detected by YOLOv5)
 https://github.com/user-attachments/assets/d99e885e-12f6-41d0-b47e-e80a58fc4e56
 
-### Physical evaluation
-https://github.com/user-attachments/assets/3ccdf0b9-760e-4cd4-829a-659a8cd0867d
+### Physical evaluation (detected by YOLOv5)
+https://github.com/user-attachments/assets/06f3db47-207d-4f7c-ba9d-f99ad266f4ab
 
 ## Naturalness
 
-### 2D evaluation
+### 2D evaluation (detected by the Canny edge detection algorithm)
 ![2Dn](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/2Dn.png)
 
-### 3D evaluation
+### 3D evaluation (detected by PFNet)
 ![3Dn](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/3Dn.png)
