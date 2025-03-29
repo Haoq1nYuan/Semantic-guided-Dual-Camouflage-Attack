@@ -46,7 +46,7 @@ Source code will be released soon.
 https://github.com/user-attachments/assets/d99e885e-12f6-41d0-b47e-e80a58fc4e56
 
 ### Physical evaluation
-
+https://github.com/user-attachments/assets/3ccdf0b9-760e-4cd4-829a-659a8cd0867d
 
 ## Naturalness
 
