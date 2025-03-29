@@ -4,6 +4,8 @@
 ## Overview
 This repository presents the open-source implementation of SDCA, a novel adversarial camouflage generation framework that leverages **semantic features of natural textures (e.g., color distributions and contour patterns)** to optimize adversarial textures for evading both biologic vision systems and computer vision systems.
 
+![Overall](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/framework.png)
+
 Source code will be released soon.
 
 ## Key Contribution
@@ -38,7 +40,18 @@ Source code will be released soon.
 - Collected via [[Unity Jungle Scene Asset](https://naturemanufacture.com/forest-environment-set/)]
 - Download link: [[Google Drive]()]
 
-## Framework
-![Overall](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/framework.png)
-
 ## Attack performance
+
+### Digital evaluation
+https://github.com/user-attachments/assets/d99e885e-12f6-41d0-b47e-e80a58fc4e56
+
+### Physical evaluation
+
+
+## Naturalness
+
+### 2D evaluation
+![2Dn](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/2Dn.png)
+
+### 3D evaluation
+![3Dn](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/3Dn.png)
