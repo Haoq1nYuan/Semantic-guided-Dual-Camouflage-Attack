@@ -1,5 +1,9 @@
 # SDCA: Towards Semantic-guided Dual Camouflage for Deceiving Human Eyes and Object Detectors
 
+## News
+
+- **2026-04-05**:  Our work has been accepted by Neural Networks.
+
 ## Overview
 This repository presents the open-source implementation of SDCA, a novel adversarial camouflage generation framework that leverages **semantic features of natural textures (e.g., color distributions and contour patterns)** to optimize adversarial textures for evading both biological vision systems and computer vision systems.
 
