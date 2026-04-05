@@ -9,8 +9,6 @@ This repository presents the open-source implementation of SDCA, a novel adversa
 
 ![Overall](https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack/blob/main/assets/framework.png)
 
-Source code will be released soon.
-
 ## Key Contribution
 
 ### Semantic-Driven Generator (SDG)
