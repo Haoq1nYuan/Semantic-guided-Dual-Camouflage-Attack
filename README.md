@@ -2,7 +2,8 @@
 
 ## News
 
-- **2026-04-04**: Our paper has been accepted for publication in *Neural Networks*. The code is on its way!
+- **2026-04-16**: Our paper has been published online. The code is on its way!
+- **2026-04-04**: Our paper has been accepted for publication in *Neural Networks*.
 
 ## Overview
 This repository presents the open-source implementation of SDCA, a novel adversarial camouflage generation framework that leverages **semantic features of natural textures (e.g., color distributions and contour patterns)** to optimize adversarial textures for evading both biological vision systems and computer vision systems.
