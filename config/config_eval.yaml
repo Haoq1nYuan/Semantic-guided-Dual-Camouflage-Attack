@@ -7,13 +7,13 @@ car_model:
   obj_mesh: '3Dmodels/car.obj'
 
 adv_evaluate:
-  texture_path: 'examples/SDCA_dual_camouflage_base.png'
+  texture_path: 'path_to_your_generated_camouflage_image_file'
   seed: 42
   render_batch_size: 300   # total num of detection samples
   detect_batch_size: 8
   target_class: 2
 
 nat_evaluate:
-  texture_path: 'examples/SDCA_dual_camouflage_base.png'
+  texture_path: 'path_to_your_generated_camouflage_image_file'
   padding: 20   # the width of surrounding areas of the embedded texture
   bg_sample_num: 5    # total num of evaluation samples

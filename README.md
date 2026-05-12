@@ -5,6 +5,7 @@ generation framework for deceiving both human eyes and object detectors.
 
 ## News
 
+- **2026-05-12**: The source code has been released.
 - **2026-04-16**: The paper has been published online in *Neural Networks*.
 - **2026-04-04**: The paper has been accepted for publication in *Neural Networks*.
 
@@ -54,10 +55,8 @@ SDCA/
   3Dmodels/                 # Vehicle mesh, material, and UV masks
   modules/                  # Renderer, generator, evaluator, augmentor, data loader
   detectors/                # YOLOv5 and EfficientDet code; weights are external
-  examples/                 # Example camouflage textures
   data/                     # Dataset mount point
   results/                  # Runtime outputs
-  docs/                     # Reproduction and model weight instructions
 ```
 
 ## Environment
@@ -147,6 +146,16 @@ detectors/yolov8/yolov8l.pt
 
 ## Training
 
+The initial dominant colors are already provided in `config/config_train.yaml`.
+To set a new main color palette from natural scenes, run:
+
+```bash
+python extract.py --image-idx 1 2 3 4 5 --cluster-cnt 10 --rounds 10
+```
+
+Then fill the five most frequent extracted colors into `colors.C1` to
+`colors.C5` in `config/config_train.yaml`.
+
 Run phase 1:
 
 ```bash
@@ -221,9 +230,13 @@ https://github.com/user-attachments/assets/06f3db47-207d-4f7c-ba9d-f99ad266f4ab
   volume = {201},
   pages = {108946},
   year = {2026},
-  doi = {10.1016/j.neunet.2026.108946}
+  publisher = {Elsevier}
 }
 ```
+
+## Contact
+
+For questions about this project, please contact Haoq1nYuan@163.com.
 
 ## License
 
