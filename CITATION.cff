@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use SDCA in your research, please cite the Neural Networks paper."
+title: "SDCA: Towards semantic-guided dual camouflage for deceiving human eyes and object detectors"
+authors:
+  - family-names: Yuan
+    given-names: Haoqin
+  - family-names: Chen
+    given-names: Xianyi
+  - family-names: Cui
+    given-names: Qi
+  - family-names: Liu
+    given-names: Fazhan
+  - family-names: Fu
+    given-names: Zhangjie
+doi: 10.1016/j.neunet.2026.108946
+journal: Neural Networks
+volume: 201
+year: 2026
+url: "https://www.sciencedirect.com/science/article/abs/pii/S0893608026004077"
+preferred-citation:
+  type: article
+  title: "SDCA: Towards semantic-guided dual camouflage for deceiving human eyes and object detectors"
+  authors:
+    - family-names: Yuan
+      given-names: Haoqin
+    - family-names: Chen
+      given-names: Xianyi
+    - family-names: Cui
+      given-names: Qi
+    - family-names: Liu
+      given-names: Fazhan
+    - family-names: Fu
+      given-names: Zhangjie
+  doi: 10.1016/j.neunet.2026.108946
+  journal: Neural Networks
+  volume: 201
+  year: 2026
+repository-code: "https://github.com/Haoq1nYuan/Semantic-guided-Dual-Camouflage-Attack"
+license: MIT

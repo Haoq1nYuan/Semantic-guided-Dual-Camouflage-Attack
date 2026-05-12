@@ -1,0 +1,27 @@
+# Python cache and local runtime artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Logs and TensorBoard outputs
+*.log
+events.out.tfevents.*
+tb/
+
+# Detector weights are distributed through GitHub Releases
+*.pt
+detector-weights-v*.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

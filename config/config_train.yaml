@@ -1,0 +1,47 @@
+dataset:
+  train_bg_dir: 'data/carla/npz/train'
+  train_label_dir: 'data/carla/label/train'
+  stg1_idx: 'data/carla/stage1_idx.npz'
+  stg2_idx: 'data/carla/stage2_idx.npz'
+  test_bg_dir: 'data/carla/npz/test'
+  test_label_dir: 'data/carla/label/test'
+
+car_model:
+  obj_mesh: '3Dmodels/car.obj'
+
+general_train:
+  detector_dir: 'detectors/yolov5'
+  texture_size: 2048
+  perturbation_size: 512
+  render_batch_size: 32
+  detect_batch_size: 1
+  attack_class: 2
+  brightness_range: [0.5, 1.5]
+  contrast_range: [0.5, 1.5]
+
+phase1_train:
+  epoch: 500
+  freqs: [10, 20, 40]   # scales of the perlin noise
+  fusion_weights: [0.57, 0.29, 0.14]   # fusion coefficients
+  sigma: 0.8   # curvature parameter
+  lr: [0.05, 0.02, 0.02]
+  weight_decay: 0
+
+phase2_train:
+  epoch: 800
+  spe_texture: 'results/train_results/1/speckle_texture.png'
+  perturbation: 'results/train_results/1/best/starry_texture_Sp_epoch_465.png'
+  alpha: 1e-4
+  lr: 1e-3
+  weight_decay: 1e-4
+
+colors:
+  C1: [63, 59, 58]
+  C2: [68, 51, 42]
+  C3: [72, 34, 30]
+  C4: [56, 34, 49]
+  C5: [39, 46, 89]
+
+save:
+  train_output_dir: 'results/train_results'
+  save_intermediate_results: False

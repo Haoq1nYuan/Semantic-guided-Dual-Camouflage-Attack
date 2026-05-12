@@ -1,0 +1,19 @@
+dataset:
+  nat_bg_dir: 'data/rsscn7'
+  test_bg_dir: 'data/carla/npz/test'
+  test_label_dir: 'data/carla/label/test'
+
+car_model:
+  obj_mesh: '3Dmodels/car.obj'
+
+adv_evaluate:
+  texture_path: 'examples/SDCA_dual_camouflage_base.png'
+  seed: 42
+  render_batch_size: 300   # total num of detection samples
+  detect_batch_size: 8
+  target_class: 2
+
+nat_evaluate:
+  texture_path: 'examples/SDCA_dual_camouflage_base.png'
+  padding: 20   # the width of surrounding areas of the embedded texture
+  bg_sample_num: 5    # total num of evaluation samples
